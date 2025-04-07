@@ -11,8 +11,10 @@
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-# Hello, and welcome to my React Showcase Repository of my Personal Projects
+# Hello, and welcome to my React Showcase Repository of my Personal Projects 🖐️
 
 This project is a fully deployed (via Google Cloud) full stack application that uses react components on the front end to interact with MongoDB via a backend express application. It incorporates a variety of components that showcase my ability to make various API calls to retrieve and render data in the UI. Additionally, I made a Todo List comonent that demonstrates my ability to communicate with a MongoDB Atlas Cluster where data is fetched using GET method, and data is updated via POST and PUT methods. Data can be deleted via DELETE method. Similarly, the GuestBook component also communicates with the backend MongoDB cluster. I did not incorporate edit or delete methods because I do not want users to be able to delete data without me seeing it. In the future I will work on encorporating some method of authentication either through OAuth or firebase component. 
 
