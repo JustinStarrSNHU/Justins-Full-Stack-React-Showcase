@@ -11,12 +11,17 @@ Front-end: https://justins-fullstack-showcase-frontend-731991412305.us-central1.
 
 Back-end: https://justins-fullstack-showcase-731991412305.us-central1.run.app/
 
+
 The back-and can be tested by itself by calling the todos endpoint:
+
 for example: https://justins-fullstack-showcase-731991412305.us-central1.run.app/todos 
+
 This will return all todos in the MongoDB Atlas cluster deployed for this application.
 
 The guestbook endpoint can be similarly tested:
+
 https://justins-fullstack-showcase-731991412305.us-central1.run.app/guestbook
+
 Returns all guestbook entries in JSON format
 
 
