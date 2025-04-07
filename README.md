@@ -1,9 +1,23 @@
 # Justins Full Stack React Showcase | developer: Justin Starr
 
+![MongoDB](https://img.shields.io/badge/mongodb-003300?style=for-the-badge&logo=mongodb&logoColor=11FF11)
+![Express](https://img.shields.io/badge/Express-FFFFFF?style=for-the-badge&logo=express&logoColor=222222)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Node](https://img.shields.io/badge/node.js-002200?style=for-the-badge&logo=nextdotjs&logoColor=green)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 # Hello, and welcome to my React Showcase Repository of my Personal Projects
 
 This project is a fully deployed (via Google Cloud) full stack application that uses react components on the front end to interact with MongoDB via a backend express application. It incorporates a variety of components that showcase my ability to make various API calls to retrieve and render data in the UI. Additionally, I made a Todo List comonent that demonstrates my ability to communicate with a MongoDB Atlas Cluster where data is fetched using GET method, and data is updated via POST and PUT methods. Data can be deleted via DELETE method. Similarly, the GuestBook component also communicates with the backend MongoDB cluster. I did not incorporate edit or delete methods because I do not want users to be able to delete data without me seeing it. In the future I will work on encorporating some method of authentication either through OAuth or firebase component. 
+
+
+this application was containerized using Docker and deployed using the Google Cloud CLI.
 
 The following are the applications front-end and back-end application links:
 
