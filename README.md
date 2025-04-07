@@ -6,8 +6,8 @@ Developer: Justin Starr
 This project is a fully deployed (via Google Cloud) full stack application that uses react components on the front end to interact with MongoDB via a backend express application. It incorporates a variety of components that showcase my ability to make various API calls to retrieve and render data in the UI. Additionally, I made a Todo List comonent that demonstrates my ability to communicate with a MongoDB Atlas Cluster where data is fetched using GET method, and data is updated via POST and PUT methods. Data can be deleted via DELETE method. Similarly, the GuestBook component also communicates with the backend MongoDB cluster. I did not incorporate edit or delete methods because I do not want users to be able to delete data without me seeing it. In the future I will work on encorporating some method of authentication either through OAuth or firebase component. 
 
 The following are the applications front-end and back-end application links:
-Front-end: https://justins-fullstack-showcase-frontend-731991412305.us-central1.run.app
-Back-end: https://justins-fullstack-showcase-731991412305.us-central1.run.app/
+<br>Front-end: https://justins-fullstack-showcase-frontend-731991412305.us-central1.run.app
+<br>Back-end: https://justins-fullstack-showcase-731991412305.us-central1.run.app/
 
 The back-and can be tested by itself by calling the todos endpoint:
 for example: https://justins-fullstack-showcase-731991412305.us-central1.run.app/todos 
