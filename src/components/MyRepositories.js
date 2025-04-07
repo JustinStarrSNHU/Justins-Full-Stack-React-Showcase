@@ -33,6 +33,7 @@ const MyRepositories = () => {
   const GitHubBadge = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white";
   const GITBadge = "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white";  
   const PandasBadge = "https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white";
+  const ReactBadge = "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB";
   const GCloudBadge = "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white";
 
   const [repositories, setRepositories] = useState([]);
@@ -507,6 +508,76 @@ const MyRepositories = () => {
                   src={GitHubBadge}
                   alt="GitHub Badge"
                   className="badge-padding"
+                />
+              </div>
+
+            )}
+            {repo.name === "Justins-Full-Stack-React-Showcase" && (
+              <div>
+                <img 
+                  src={MongoDBBadge}
+                  alt="MongoDB Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={ExpressBadge}
+                  alt="Express Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={ReactBadge}
+                  alt="react Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={NodeBadge}
+                  alt="NodeJS Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={JavaScriptBadge}
+                  alt="JavaScript Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={VSCodeBadge}
+                  alt="Visual Studio Code Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={PostmanBadge}
+                  alt="Postman Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={PowerShellBadge}
+                  alt="Power Shell Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={NPMBadge}
+                  alt="NPM Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={GITBadge}
+                  alt="GIT Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={GitHubBadge}
+                  alt="GitHub Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={DockerBadge}
+                  alt="Docker Badge"
+                  className="badge-padding" 
+                />
+                <img 
+                  src={GCloudBadge}
+                  alt="Google Cloud Badge"
+                  className="badge-padding" 
                 />
               </div>
 
