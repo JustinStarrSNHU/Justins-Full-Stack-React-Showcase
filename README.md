@@ -1,5 +1,5 @@
-# Justins Full Stack React Showcase
-Developer: Justin Starr
+# Justins Full Stack React Showcase | developer: Justin Starr
+
 
 # Hello, and welcome to my React Showcase Repository of my Personal Projects
 
@@ -14,7 +14,7 @@ Back-end: https://justins-fullstack-showcase-731991412305.us-central1.run.app/
 
 The back-and can be tested by itself by calling the todos endpoint:
 
-for example: https://justins-fullstack-showcase-731991412305.us-central1.run.app/todos 
+https://justins-fullstack-showcase-731991412305.us-central1.run.app/todos 
 
 This will return all todos in the MongoDB Atlas cluster deployed for this application.
 
@@ -24,7 +24,7 @@ https://justins-fullstack-showcase-731991412305.us-central1.run.app/guestbook
 
 Returns all guestbook entries in JSON format
 
-
+I welcome you to explore the web application and its components. Please sign the guest book and let me know you visited!
 
 # Getting Started with Create React App
 
