@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('./resources/background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center-text {
+  text-align: center; /* Center the text */
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.badge-padding {
+  padding-right: 10px;
+}
+
+.repo-item-padding {
+  padding-bottom: 20px;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
+
+.edit-button {
+  margin-left: 10px; /* Adjust the value as needed */
+}
+
+.delete-button {
+  margin-left: 5px; /* Adjust the value as needed */
+}
+
+.transparent-button {
+  background-color: transparent; /* Makes the background transparent */
+  border: 2px solid #007BFF; /* Adds a border to make the button visible */
+  color: #007BFF; /* Sets the text color */
+  cursor: pointer; /* Changes the cursor to a pointer */
+  padding: 10px 20px; /* Adds padding for better appearance */
+  font: inherit; /* Keeps the font style */
+  border-radius: 5px; /* Adds rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.transparent-button:hover {
+  background-color: #4acfa2; /* Changes background color on hover */
+  color: white; /* Changes text color on hover */
+}
+
+.nav-bar {
+  background-color: transparent; /* Make the nav bar transparent */
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox to align items side by side */
+  justify-content: center; /* Center the buttons */
+  flex-wrap: wrap;
+}
+
+.nav-bar li {
+  margin-right: 10px; /* Add space between buttons */
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button-link:hover {
+  background-color: #4acfa2; /* Darker background color on hover */
+  color: white; /* Text color on hover */
+}
+
+.shrink-image {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.homeContainer1 {
+  display: flex; /* Use flexbox to align items side by side */
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px; /* Add padding around the container */
+}
+
+.image-and-links {
+  display: flex;
+  flex-direction: column; /* Stack image and links vertically */
+  align-items: center; /* Center items horizontally */
+  margin-right: 20px; /* Add space between the image-and-links and the description */
+}
+
+.shrink-image {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add space below the image */
+}
+
+.shrink-credential-image {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add space below the image */
+  padding-left: 40px;
+}
+
+.links {
+  display: flex; /* Use flexbox to align links side by side */
+  flex-direction: column; /* Stack links vertically */
+}
+
+.links a {
+  margin-bottom: 10px; /* Add space between links */
+  text-decoration: none; /* Remove underline */
+  color: #007BFF; /* Link color */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #0056b3; /* Darker color on hover */
+}
+
+.description {
+  max-width: 600px; /* Limit the width of the description for better readability */
+}
+
+.description h2 {
+  font-size: 1.5em; /* Increase the font size for the heading */
+  margin-top: 0; /* Remove default margin-top */
+}
+
+
+.description p {
+  margin-bottom: 15px; /* Add space between paragraphs */
+  line-height: 1.6; /* Increase line height for better readability */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #4acfa2
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
