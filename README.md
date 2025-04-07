@@ -1,4 +1,4 @@
-# Justins Full Stack React Showcase | developer: Justin Starr
+# Justin's Full Stack React Showcase | Developer: Justin Starr
 
 ![MongoDB](https://img.shields.io/badge/mongodb-003300?style=for-the-badge&logo=mongodb&logoColor=11FF11)
 ![Express](https://img.shields.io/badge/Express-FFFFFF?style=for-the-badge&logo=express&logoColor=222222)
