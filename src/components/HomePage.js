@@ -16,9 +16,9 @@ const HomePage = () => {
                 </div>
                 <div className="description">
                     
-                    <h2>A Little About this React Native Application</h2>
+                    <h2>A Little About this React Application</h2>
                     <p>
-                        This application has been created to help showcase some of my skills related to front-end development using react native. I would like to personally welcome you, and thank you for taking the time to visit!
+                        This application has been created to help showcase some of my skills related to front-end development using React. I would like to personally welcome you, and thank you for taking the time to visit!
                    </p>
                     <p>
                         This home page provides you with some detail about myself along with additional links to my LinkedIn page as well as my Merit Page. The Merit Page is a special page where you can view all of my academic distinguishments. While attending Southern New Hampshire University, I was recognized for being named to the university's President's List three times, and also the university's Honor Role 14 times.
